@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Tarea1.Clases;
 
 namespace Tarea1
 {
@@ -79,6 +80,14 @@ namespace Tarea1
             texto = txtString.Text;
             ManipulacionString = texto.ToLower();
             MessageBox.Show("Texto fue cambiado a minusculas: '" + ManipulacionString + "'");
+        }
+
+        private void btnParte3y4_Click(object sender, EventArgs e)
+        {
+            CostaRica cr = new CostaRica();
+            Panama pn = new Panama();
+            MessageBox.Show("Parte de Herencia: "+pn.Panama());
+            MessageBox.Show("Parte de Abstracción: "+cr.costaRicaPais());
         }
     }
 }

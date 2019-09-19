@@ -47,7 +47,7 @@
             this.lblResultado = new System.Windows.Forms.Label();
             this.lblClaseString = new System.Windows.Forms.Label();
             this.splitter2 = new System.Windows.Forms.Splitter();
-            this.btnAbstraccion = new System.Windows.Forms.Button();
+            this.btnParte3y4 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -64,7 +64,7 @@
             // 
             // splitContainer1.Panel1
             // 
-            this.splitContainer1.Panel1.Controls.Add(this.btnAbstraccion);
+            this.splitContainer1.Panel1.Controls.Add(this.btnParte3y4);
             this.splitContainer1.Panel1.Controls.Add(this.splitter2);
             this.splitContainer1.Panel1.Controls.Add(this.lblNum2);
             this.splitContainer1.Panel1.Controls.Add(this.lblNum1);
@@ -247,14 +247,15 @@
             this.splitter2.TabIndex = 21;
             this.splitter2.TabStop = false;
             // 
-            // btnAbstraccion
+            // btnParte3y4
             // 
-            this.btnAbstraccion.Location = new System.Drawing.Point(69, 531);
-            this.btnAbstraccion.Name = "btnAbstraccion";
-            this.btnAbstraccion.Size = new System.Drawing.Size(473, 23);
-            this.btnAbstraccion.TabIndex = 22;
-            this.btnAbstraccion.Text = "Parte 3 y 4 Herencia-Abstracción";
-            this.btnAbstraccion.UseVisualStyleBackColor = true;
+            this.btnParte3y4.Location = new System.Drawing.Point(69, 531);
+            this.btnParte3y4.Name = "btnParte3y4";
+            this.btnParte3y4.Size = new System.Drawing.Size(473, 23);
+            this.btnParte3y4.TabIndex = 22;
+            this.btnParte3y4.Text = "Parte  Herencia-Abstracción";
+            this.btnParte3y4.UseVisualStyleBackColor = true;
+            this.btnParte3y4.Click += new System.EventHandler(this.btnParte3y4_Click);
             // 
             // FormHome
             // 
@@ -297,7 +298,7 @@
         private System.Windows.Forms.Button btnToUpper;
         private System.Windows.Forms.Button btnIndexOf;
         private System.Windows.Forms.TextBox txtIndex;
-        private System.Windows.Forms.Button btnAbstraccion;
+        private System.Windows.Forms.Button btnParte3y4;
         private System.Windows.Forms.Splitter splitter2;
     }
 }
